@@ -1,0 +1,4 @@
+env = Environment(CXXFLAGS=['-std=c++11', '-g', '-O3', '-Wall'])
+env.Program('fp', ['main.cpp', 'ops.cpp'])
+
+
